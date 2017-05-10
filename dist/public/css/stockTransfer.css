@@ -1,0 +1,10 @@
+.tableContent .header_button a{
+    float: right;
+    background-color: #4a7de4;
+    padding: 1px 12px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.tableContent .header_button h3{
+    float: left;
+}

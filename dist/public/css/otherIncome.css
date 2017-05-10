@@ -1,0 +1,81 @@
+.income-total{
+    float: right;
+    margin-right: 20px;
+}
+.react-echarts-width{
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.table-content{
+    margin-top: 16px;
+}
+.table-content .table-content-header{
+    background-color: #4a7de4;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+    position: relative;
+}
+.table-content .table-content-header  h3{
+    color: #fff;
+}
+.table-content .table-content-header .table-content-header-search{
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.table-content .table-content-header .table-content-header-search .search_txt{
+    width: 200px;
+    float: left;
+    height: 20px;
+    padding: 0 6px;
+    margin-right: 20px;
+    border-radius: 2px;
+}
+.table-content .table-content-header .table-content-header-search .btn_search{
+    width: 76px;
+    height: 20px;
+    background: #1f4ba4;
+    line-height: 0px;
+    cursor: pointer;
+}
+.income-infoList{
+    padding: 0 5px;
+    font-size: 14px;
+    color: #2d2d2d;
+}
+.income-infoList li{
+    height: 50px;
+    line-height: 50px;
+}
+.income-infoList li span{
+    margin-left: 15px;
+}
+.income-infoList li .title-spacing{
+    letter-spacing:29px;
+    margin-left: 0;
+}
+.income-infoList li .colon{
+    margin-left: -30px;
+}
+.income-bankList{
+    font-size: 14px;
+    color: #2d2d2d;
+    margin-left: 3px;
+}
+.income-bankList tr{
+    height: 50px;
+    line-height:50px;
+}
+.income-bankList tr .bank-name{
+    text-align: right;
+}
+.header_number{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #8e8e8e;
+}

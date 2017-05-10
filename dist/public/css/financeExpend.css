@@ -1,0 +1,9 @@
+.expendType{
+    display: none;
+}
+.amortize_month{
+    display: block;
+}
+.prepayment-dialog .count_info .expend_money{
+    color: #8e8e8e;
+}

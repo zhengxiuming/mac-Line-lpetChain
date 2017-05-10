@@ -1,0 +1,25 @@
+.treeList{
+    float: left;
+    width:202px;
+    margin-top: 10px;
+}
+.treeList .treeHd{
+    background-color: #4a7de4;
+    height: 30px;
+    line-height:30px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.treeList_scroll .rct-tree{
+    overflow: auto;
+    height: 210px;
+    background-color: #f8f8f8;
+}
+.treeList ul{
+    background-color: #fff;
+    padding: 10px;
+
+}
+.treeContent{
+    margin-left: 215px;
+}

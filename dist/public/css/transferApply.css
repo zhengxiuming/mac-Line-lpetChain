@@ -1,0 +1,138 @@
+.applySheet{
+    width:990px;
+    margin: 34px auto;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1000;
+    left: 0px;
+    top: 36px;
+    bottom: 0px;
+    right: 0px;
+    /* height: 1300px; */
+}
+.applySheet .z_applyHd{
+    width: 100%;
+    position: relative;
+}
+.applySheet .z_applyHd .backHistory{
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+}
+.applySheet .z_applyHd .backHistory a{
+    width: 110px;
+    height: 26px;
+    background-color: #4a7de4;
+    padding: 5px 13px;
+    border-radius: 2px;
+}
+.applySheet .z_applyHd .hd_left{
+    float: left;
+    margin-left: 20px;
+}
+.applySheet .z_applyHd .hd_right{
+    float: right;
+    margin-right: 20px;
+ }
+.applySheet .z_applyHd .z_nav{
+    width: 340px;
+    height: 32px;
+    background:url("../images/nav.png") no-repeat 100% 100%;
+    line-height: 32px;
+}
+.applySheet .z_applyHd .z_nav .title{
+    color:#fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+ .applySheet .z_applyHd .z_nav_hd{
+     height: 32px;
+     width: 100%;
+     background-color: #4a7de4;
+     line-height: 32px;
+ }
+.applySheet .z_applyHd .z_nav_hd .title{
+    color:#fff;
+    font-size: 13px;
+}
+.applySheetContent{
+    background-color: #fff;
+    padding: 22px 22px 160px 22px;
+}
+.applySheetContent h2{
+    font-size: 22px;
+    text-align: center;
+}
+.apply_hospital{
+    margin-top: 20px;
+}
+.apply_hospital li{
+    float: left;
+    margin-right: 70px;
+}
+.tableContent{
+    margin-top: 20px;
+}
+.tableContent table{
+    margin-top: 10px;
+}
+.tableContent h3{
+    font-size: 14px;
+}
+.tableContent .total{
+    margin-top: 20px;
+    text-align: right;
+}
+.tableContent .total span, .tableContent .total lable{
+    color:red;
+}
+.step {
+    margin-top: 10px;
+}
+.step .headerTitle .status{
+    float: left;
+}
+.step .headerTitle .reticule{
+    margin-left: 72px;
+    border-bottom: 1px dashed #ccc;
+    height: 10px;
+}
+.step .bodyStep ul{
+    width: 9px;
+    margin:10px 0 0 30px;
+    float: left;
+}
+.step .bodyStep ul .radius{
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+.step .bodyStep ul .verticalLine{
+    border-left: 1px solid #ccc;
+    height: 109px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+.step .bodyStep .bodyTitle{
+    margin:20px 0 0 80px;
+}
+.matte{
+    position: absolute;
+    z-index: 1000;
+    left: 0px;
+    top: 40px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    min-height: 1000px;
+    background-color: #f8f8f8;
+}
+
+.z_green{
+    color:#50b20c;
+}
+.z_color{
+    color:#2d2d2d;
+}

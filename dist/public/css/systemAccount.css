@@ -1,0 +1,35 @@
+.talbe-container .employeeBinding{
+    background: url("../images/lpet_chaind_icon.png") no-repeat -1px -5px;
+    width: 20px;
+    height: 20px;
+}
+.talbe-container .employeeDelete{
+    background: url("../images/lpet_chaind_icon.png") no-repeat -30px -5px;
+    width: 32px;
+    height: 20px;
+}
+.talbe-container .permissionSetting{
+    background: url("../images/lpet_chaind_icon.png") no-repeat -240px -30px;
+    width: 20px;
+    height: 20px;
+}
+.talbe-container .deleteEmpolyee{
+    background: url("../images/lpet_chaind_icon.png") no-repeat -95px -30px;
+    width: 20px;
+    height: 20px;
+}
+
+#readOnly{
+    display: none;
+}
+.z_form{
+    text-align: right;
+}
+.z_form .label{
+    color: #fd0505;
+    width: 182px!important;
+    margin-top: 12px;
+}
+.z_form .btn_search{
+    margin-left: 20px;
+}

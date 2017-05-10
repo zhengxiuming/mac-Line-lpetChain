@@ -1,0 +1,186 @@
+.search-bar{
+	height: 30px;
+	vertical-align: middle;
+	padding:12px 0px 0px 0px;
+	width: 100%;
+
+}
+.search-bar form{
+	height: 100%
+
+}
+.search-bar .form-input,
+.search-bar .form-select,
+.search-bar .form-start-time,
+.search-bar .from-time-period,
+.search-bar .form-search{
+	display: inline-block;
+}
+.search-bar div.form-input{
+	padding-left: 62px!important;
+}
+.search-bar .form-input label{
+	width: 70px!important;
+	text-align: left!important;
+}
+.form-input input{
+	width: 155px;
+	border-radius:0px;
+	height: 26px;
+	border: solid 0.5px #dddddd;
+	color: #c4c4c4;
+	font-size: 14px;
+	padding-left: 
+
+}
+.search-bar .form-select{
+	padding-left: 70px!important;
+}
+.search-bar .form-select label{
+	width: 70px!important;
+}
+.search-bar .form-select .form-select{
+	width: 190px;
+	padding-left: 0px!important;
+	height: 26px;
+	border-radius:0px;
+	padding-top: 4px;
+	padding-left: 5px!important;
+}
+
+.search-bar .kuma-calendar-picker-input{
+	width: 100px;
+	height: 25px;
+	border: solid 1px #dddddd;
+	color: #c4c4c4;
+	margin-left: 5px;
+	margin-right: 3px;
+	font-size: 14px;
+	padding-top: -1px;
+	padding-left: 5px;
+}
+.search-bar .kuma-calendar-picker-input input{
+	font-size: 14px;
+	width: 100%
+}
+
+.search-bar .from-time-period {
+	margin:0 10px;
+}
+.search-bar .from-time-period span{
+	margin:0px 8px;
+	cursor:pointer;
+}
+
+.search-bar .from-time-period span.on{
+	color:#5182e6;
+	cursor:default;
+}
+.prepayment-dialog .line-info{
+	font-size: 14px;
+	color: #8e8e8e;
+	position: relative;
+	padding: 0px 5px;
+}
+.prepayment-dialog .line-info div{
+	background:#ddd;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	width: 380px;
+	top: 10px;
+    left: 50px;
+}
+
+.prepayment-dialog .dn-select {
+	width: 440px;
+	margin: 10px 0px 10px 18px;
+}
+
+.prepayment-dialog .dn-select {
+	
+	padding-left: 73px!important;
+}
+.prepayment-dialog .dn-select label {
+	width: 72px!important;
+	font-size: 14px;
+	color: #2d2d2d;
+}
+.prepayment-dialog .dn-select label:before {
+	content: ""!important;
+	position: absolute;
+}
+.prepayment-dialog .dn-select .dn-select {
+	padding-left: 6px!important;
+	width: 340px;
+	margin: 0px;
+	height: 34px;
+}
+
+.prepayment-dialog  .dn-required:after {
+	content: '*';
+    display: inline-block;
+    color: #fd0505;
+    font-size: 16px;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+.prepayment-dialog .dn-required .dn-required:after {
+	content: '';
+}
+
+.prepayment-dialog .dn-input {
+	width: 440px;
+	margin: 10px 0px 10px 18px;
+}
+
+.prepayment-dialog .dn-input {
+	
+	padding-left: 73px!important;
+}
+.prepayment-dialog .dn-input label {
+	width: 72px!important;
+	font-size: 14px;
+	color: #2d2d2d;
+}
+
+.prepayment-dialog .dn-input .dn-input {
+	padding-left: 6px!important;
+	width: 340px;
+	margin: 0px;
+	height: 34px;
+}
+.prepayment-dialog .dn-input .dn-input:after {
+	content: '*';
+    display: inline-block;
+    font-family: SimSun;
+    margin-left: 4px;
+    color: #CA3C3C;
+}
+.prepayment-dialog .dn-input .dn-input-textarea{
+	height: 60px;
+}
+.prepayment-dialog  .count_info{
+	width: 432px;
+	margin-top: 20px ;
+	text-align: right;
+	color:#8e8e8e;
+}
+.prepayment-dialog  .count_info label{
+	color:#2d2d2d;
+	margin-right: 20px;
+}
+.prepayment-dialog  .count_info span{
+	color:#4a7de4;
+}
+
+.float-button{
+	float: right;
+	/*width: 90px;*/
+	height: 20px;
+	background-color:#1f4ba4!important;
+	padding-top: 1px!important;
+	margin-top: 5px;
+	margin-right: 10px;
+}

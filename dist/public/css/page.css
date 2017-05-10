@@ -1,0 +1,82 @@
+.ui-pagnation{
+overflow:hidden;
+margin-top:20px;
+text-align:right;
+}
+.ui-pagnation .sum{
+float: left;
+height: 26px;
+line-height:26px;
+margin-right: 15px;
+}
+.ui-pagnation .num{
+border: 1px solid #ddd;
+height: 24px;
+line-height: 20px;
+text-align: center;
+padding: 0 2px;
+float: left;
+margin-right: 8px;
+overflow: hidden;
+padding-right: 5px;
+}
+.ui-pagnation .num input{
+width: 28px;
+height: 14px;
+line-height: 12px;
+border:1px solid #ddd;
+margin:4px 0 0 4px;
+float: left;
+}
+.ui-pagnation .num span{
+float:left;
+display: block;
+margin-top: 2px;
+color:#5182e6;
+}
+.ui-pagnation .page{
+width: 98px;
+height: 24px;
+display:block;
+float: left;
+border: 1px solid #ddd;
+text-align: center;
+line-height: 24px;
+font-size: 14px;
+text-decoration: none;
+color: #5182e6;
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+cursor:pointer;
+}
+.ui-pagnation .disable{
+cursor:no-drop;
+border-color:#a0a0a0;
+background:#f3f4f8;
+}
+.num-total{
+color:#5182e6;
+}
+.pagnation-cols{
+display: block;
+float: left;
+margin-left:8px;
+}
+.pagnation-cols .pageList{
+display:inline-block;
+height:24px;
+width:24px;
+margin-right:8px;
+border:1px solid #ddd;
+text-decoration:none;
+line-height:24px;
+text-align:center;
+color:#5182e6;
+cursor:pointer;
+}
+.pagnation-cols .current{
+border-color:#a7bbcb;
+color:#fff;
+background:#a7bbcb;
+}

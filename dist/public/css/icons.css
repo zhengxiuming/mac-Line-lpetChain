@@ -1,0 +1,14 @@
+.icon-search:before{
+	/*background:url("../images/lpet_chaind_icon.png") no-repeat 8px -116px;*/
+	/*content: url( "../images/lpet_chaind_icon.png" ) ;*/
+	
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-left: -3px;
+    margin-top: 0px;
+    content: "";
+    background: url("../images/lpet_chaind_icon.png") no-repeat 0px -120px;
+ 
+}

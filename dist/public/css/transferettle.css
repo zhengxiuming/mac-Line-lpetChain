@@ -1,0 +1,68 @@
+.apply_hospital li .form-select{
+    display: inline-block;
+}
+.gap li .hospital{
+     width: 240px;
+ }
+.gap li .time{
+    width: 150px;
+}
+.new_item{
+    float: right;
+    line-height: 20px;
+    padding: 0 10px;
+    border-radius: 2px;
+    height: 20px;
+    background-color: #1f4ba4!important;
+    padding-top: 1px!important;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.apply_hospital li.second{
+    margin-left: -68px;
+}
+.apply_hospital li.last{
+    float:right;
+    margin-right: 150px;
+}
+.rct-form .apply_hospital .rct-control-group{
+    margin-bottom: 0px;
+}
+.applySheetContent{
+    position: relative;
+}
+.applySheetContent .deal_money li{
+    margin-right: 199px;
+}
+.applySheetContent .operator li{
+    margin-right: 238px;
+}
+.applySheetContent .addOperate .form-select{
+    width: 180px;
+}
+.applySheetContent .addOperate .remarks{
+    margin-left: 86px;
+    margin-right: 0px;
+}
+.applySheetContent .addOperate .form-width{
+    width: 527px;
+}
+.applySheetContent .btn_search{
+    position: absolute;
+    margin-top: 50px;
+    right:20px;
+}
+.apply_hospital .button_input a{
+    color: #fff;
+    background-color: #4a7de4;
+    padding: 2px 12px;
+    border-radius: 2px;
+
+}
+.applySheetContent .deal_money li.z_edge{
+    margin-right: 15px;
+}
+.apply_hospital .operate_person{
+    margin-left: -70px;
+}

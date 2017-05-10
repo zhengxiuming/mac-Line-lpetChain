@@ -1,0 +1,36 @@
+.content-nav-bar{
+	height: 30px;
+	line-height: 30px;
+	background-color: #4a7de4;
+	width:100%;
+	color: #ffffff;
+	
+	font-size: 12px;
+	margin-top: 10px;
+}
+.content-nav-bar span{
+	padding-left: 10px;
+}
+.add-button{
+	
+	width: 55px;
+	height: 20px;
+	line-height: 19px;
+	border-radius: 2px;
+	background-color: #1f4ba4;
+	background-image: url(http://baiduios.com/react-static/images/button-add.png);
+	background-repeat: no-repeat;
+	background-position: 6px 4px;
+	padding-left: 25px;
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: 5px;
+	margin-right: 10px;
+	float: right;
+}
+
+.talbe-container{
+	/*background-color: #dddddd*/
+	border:1px solid #dddddd;	
+	border-top: none;
+}

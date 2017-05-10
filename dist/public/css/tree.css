@@ -1,0 +1,149 @@
+ .expenses-content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+ }
+ .tree-container {
+            width: 202px;
+            background-color: white;
+            font-size: 12px;
+            font-weight: bold;
+            float: left;
+
+        }
+        
+        .tree-container ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .tree-container ul li {
+            padding: 8px 5px;
+        }
+        .tree-container .header-tree {
+            background-color: #4a7de4;
+            color: white;
+            padding: 8px;
+            font-weight: 400;
+        }
+        .tree-container .header-tree p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .tree-container .header-tree .d2 {
+            display: block;
+            border: 1px solid transparent;
+            border-radius:2px;
+            
+            width: 35%;
+            background-color: #1f4ba4;
+            float: right;
+            text-align: right;
+            
+        }
+       
+        .icon-plus {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background:url("../images/lpet_chaind_icon.png") no-repeat;
+            background-position: 0 -60px;
+            padding-right: 7px;
+        }
+        .icon-minus {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background:url("../images/lpet_chaind_icon.png") no-repeat;
+            background-position: -30px -60px;
+            padding-right: 7px;
+        }
+        .icon-right-arrow {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background:url("../images/lpet_chaind_icon.png") no-repeat;
+            background-position: -60px -60px;
+            padding-right: 7px;
+        }
+        .icon-unboxed-right-arrow {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background:url("../images/lpet_chaind_icon.png") no-repeat;
+            background-position: -90px -120px;
+           
+            
+        }
+        #list-tree ul.sub-list {
+            margin-top: -5px; 
+        }
+        .sub-list li {
+            position: relative;
+            left: -12px; 
+            border-left: 0.5px solid #4a7de4;
+            margin: 0;
+            box-sizing:border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .sub-list-item .delete-icon{
+                float: right; 
+                margin-right: 0;
+                padding-right: 0;
+        }
+        .sub-list-item  .edit-icon{
+               float: right; 
+                margin-right: 0;
+                padding-right: 0;
+        } 
+         #list-tree li.sub-list-active {
+            background-clip: border-box;
+           background-color: #e2efff;
+           background-size: 100%;
+           z-index: 10000;
+
+        }
+       /*li.sub-list-active::before {
+             position: absolute;
+             content: " ";
+             width: 40px;
+             height: 30px;
+             border: 1px solid red;
+             background-color: #e2efff;
+             margin-left: -30px;
+             margin-right: 10px;
+             z-index: 9999;
+             
+
+        } */
+         #list-tree .sub-list ul li {
+            padding: 0;
+            margin: 0;
+         }
+    
+          #list-tree ul.sub-list span.hz-bar {
+            display: inline-block;
+            width: 30px;
+            height: 1px;
+            border-top: 0.5px solid #4a7de4;
+            margin-top: -20px;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            
+        }
+         #list-tree .sub-list li.sub-list-item {
+            padding-left: 0;
+        }
+        #list-tree .clear-bar {
+            position: relative;
+            width: 40px;
+            height: 15px;
+            float: left;
+            border: 1px solid transparent;
+            background-color: white;
+            margin-top: -12px;
+            z-index: 1000;
+        }

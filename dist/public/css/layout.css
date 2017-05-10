@@ -1,0 +1,354 @@
+/*===================
+
+*/
+html,body,#lpet_app,.content,.chain_body,.chain_body_left,.chain_body_right{
+	min-height:920px;
+}
+.chain_body{
+	background-color: #3b3a3b;
+}
+.lpet_chain{
+	width:100%;
+	height:100%;
+}
+.header{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+}
+.header .hd_left{
+	background-color:#3b3a3b;
+	float:left;
+	width:180px;
+	height:40px;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	line-height:45px;
+}
+.header .hd_right{
+	background-color:#4a7de4;
+	height:40px;
+	width:100%;
+}
+.header .hd_right .nav_right{
+	height: 40px;
+	float: right;
+	margin-right: 20px;
+}
+.header .hd_right .nav_right .nav_font{
+	color:#fff;
+}
+.header .hd_right .nav_right li{
+	float:left;
+	margin:0 7px;
+	font-size:12px;
+	font-weight:400;
+}
+.header .hd_right .nav_right .last{
+	margin:0;
+}
+.header .hd_right .nav_right .user_info{
+	cursor:pointer;
+}
+.header .hd_right .nav_right .user_info .anv_photo {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	margin-bottom: -6px;
+}
+.header .hd_right .nav_right .user_info .anv_arrow{
+	margin-bottom: -5px;
+	width: 16px;
+	height: 16px;
+	margin-left: 4px;
+	display: inline-block;
+	background:url("../images/lpet_chaind_icon.png") no-repeat -1px -34px;
+}
+ .header .hd_right .nav_right .user_info .anv_setting{
+	 margin-bottom: -5px;
+	 width: 16px;
+	 height: 16px;
+	 margin-left: 7px;
+	 margin-right:4px;
+	 display: inline-block;
+	 background:url("../images/lpet_chaind_icon.png") no-repeat -330px -34px;
+ }
+.header .hd_right .nav_right .user_info .user_name{
+	margin-left:5px;
+}
+/*
+---------------------------------
+左侧导航栏样式*/
+.chain_body_left{
+	background-color:#3b3a3b;
+	width:180px;
+	float:left;
+	position:relative;
+}
+.chain_body_left .photo_set{
+	background:#5a5a5a;
+	height:101px;
+	text-align:center;
+	padding:26px 0 21px 0;
+}
+.chain_body_left .photo_set li a img{
+	width:60px;
+	height:60px;
+	border-radius:100%;
+}
+.chain_body_left .photo_set li .photo_name{
+	font-size:14px;
+	font-weight:400;
+	color:#fff;
+	text-align:center;
+}
+.chain_body_left .photo_set li .hospital_name{
+	color:#ddd;
+	font-size:10px;
+}
+.banner{
+	margin-top:14px;
+}
+.banner li{
+	height:36px;
+	line-height:36px;
+}
+.banner li a{
+	height:36px;
+	line-height:36px;
+	display:block;
+	font-size:14px;
+	font-weight:400;
+}
+.banner li a img{
+	height:16px;
+	margin-bottom:-3px;
+	margin-left:37px;
+	padding-right:26px;
+}
+ .banner li a .lpetNav_1{
+	 background:url("../images/lpet_chaind_icon.png") no-repeat -180px -60px;
+ }
+.banner li a .lpetNav_2{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -210px -60px;
+}
+.banner li a .lpetNav_3{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -240px -60px;
+}
+.banner li a .lpetNav_4{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -270px -60px;
+}
+.banner li a .lpetNav_5{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -300px -60px;
+}
+.banner li a .lpetNav_6{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -330px -60px;
+}
+.banner li a .lpetNav_7{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -150px -60px;
+}
+.banner li a .lpetNav_8{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -120px -60px;
+}
+.banner li a .lpetNav_9{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -90px -60px;
+}
+.banner li a .lpetNav_10{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -360px -60px;
+}
+.banner .system_setting{
+	margin-top:28px;
+}
+.chain_body_left .help_center{
+	text-align:center;
+	position: fixed;
+	bottom: 30px;
+	margin-left: 37px
+}
+.chain_body_left .help_center span{
+	color:#fff;
+	margin:0 3px;
+}
+/*
+ =============================
+ 右侧内容
+ */
+.chain_body .chain_body_right{
+	background-color:#f8f8f8;
+	margin-left:180px;
+}
+.chain_body .chain_body_right .boxTitle{
+	font-size:18px;
+	color:#3b3a3b;
+	font-weight:500;
+}
+.chain_body .chain_body_right .indexBox{
+	padding:22px;
+}
+.chain_body .chain_body_right .indexBox .employee{
+	margin-top:16px;
+}
+.chain_body .chain_body_right .indexBox .setting_list{
+	margin-top:16px;
+	height:30px;
+	border-bottom: 1px solid #4a7de4;
+}
+/* claude adds .setting_list to limit scope */
+.chain_body .chain_body_right .indexBox ul.setting_list li{
+	/*float:left;*/
+	width:150px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	cursor:pointer;
+}
+/* claude float the property above */
+ul.setting_list  li{
+	float:left;
+	
+
+}
+.chain_body .chain_body_right .indexBox ul li .current{
+	background:#4a7de4;
+	color:#fff;
+}
+.chain_body .chain_body_right .indexBox .setting_list li a{
+	color:black;
+	font-size:14px;
+	width: 150px;
+	height: 30px;
+	display: block;
+}
+.chain_body .chain_body_right .indexBox ul .select{
+	background-color:#4a7de4;
+}
+.chain_body .chain_body_right .indexBox ul .select a{
+	color:#fff;
+}
+.chain_body .chain_body_right .indexBox .employee_list{
+	background-color: #4a7de4;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	overflow: hidden;
+	position: relative;
+}
+.chain_body .chain_body_right .indexBox .employee_list h3{
+	color:#fff;
+}
+.chain_body .chain_body_right .indexBox .employee_list .employee_search{
+	width: 203px;
+	height: 18px;
+	line-height:18px;
+	font-size: 10px;
+	position: absolute;
+	top: 5px;
+	right:100px;
+}
+.chain_body .chain_body_right .indexBox .employee_list .add_employee{
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	line-height: 21px;
+	background:#1f4ba4;
+	border-radius: 2px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	top:5px;
+	right:10px;
+}
+.chain_body .chain_body_right .indexBox .employee_list .add_employee .addEmployee_icon{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -58px -118px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-bottom: -3px;
+	margin-right: 4px;
+ }
+.chain_body .chain_body_right .indexBox .employee .employee_search .search_txt{
+	width: 163px;
+	float: left;
+	height: 20px;
+	padding:0 6px;
+	margin-left: 3px;
+	border-radius: 2px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.chain_body .chain_body_right .indexBox .employee .employee_search .btn_search{
+	width: 28px;
+	float: right;
+	height: 20px;
+	background:url("../images/lpet_chaind_icon.png") no-repeat 8px -116px #1f4ba4;
+	cursor:pointer;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic{
+	width:100%;
+	border:0;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic thead{
+	height:26px;
+	line-height:26px;
+	background-color:#ededf0;
+	color:#3b3a3b;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic tbody tr{
+	height:80px;
+	line-height:80px;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic .setting{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -272px -30px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic .delete{
+	background:url("../images/lpet_chaind_icon.png") no-repeat -92px -30px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic thead td,.chain_body .chain_body_right .indexBox .employee .tableBasic tbody td{
+	text-align:center;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic tbody .bg{
+	background:#f8f8f8;
+}
+.chain_body .chain_body_right .indexBox .employee .tableBasic tbody td .user_photo{
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	margin-bottom:-21px;
+}
+.chain_body_left .banner .active{
+	background:#4a7de4;
+}
+
+.chain_body_left .banner .active:after{
+	display: block;
+	content: "";
+	position: relative!important;
+	right: 0;
+	top: -26px;
+	border: 8px solid transparent;
+	border-width: 8px 6px;
+	border-right-color: #fff;
+}
+.employeePhoto{
+	text-align: center;
+}
+.employeePhoto img{
+	width: 50px;
+	height:50px;
+	border-radius: 100%;
+}
+.chain_body .chain_body_right .indexBox .employee .employee_list .employee_search .search_txt{
+
+}
+
